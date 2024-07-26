@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  /* background-color: #8a817c; */
+  background-image: url("./components/images/waterfalls.jpg");
+  color:white;
+  min-height: 100vh;
+}
+h1 {
+  margin: 0;
+}
+.header {
+  background-color: rgb(23,32,135);
+  padding: 8px;
+}
+.main {
+  display: flex;
+  /* flex-direction: column;
+  justify-content: center; */
+  justify-content: space-between;
+  /* align-items: center; */
+  /* height: 90vh; */
+  flex-wrap: wrap;
+  padding: 14px;
+}
+.movie {
+  /* background-color: #ccd5ae; */
+  background-color: whitesmoke;
+  color: black;
+  border: ipx solid gray;
+  border-radius: 20px;
+  padding: 3px;
+  font-weight: bold;
+  text-align: center;
+  width: 24%;
+  margin-top: 14px;
+  cursor: pointer;
+}
+.movie img {
+  height: 220px;
+  width: 130px;
+  
+}
+.footer {
+  background-color: rgb(23,32,135);
+  padding: 8px;
+}
+
+
+
+/* .heading {
+  color: black;
+  font-size: 80px;
+  margin: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  background-color: rgb(62, 62, 190);
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+} */
